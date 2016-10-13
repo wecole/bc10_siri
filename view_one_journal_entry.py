@@ -1,6 +1,5 @@
     #Method to get one journal entry
-    def view_one_journal_entry(self, journal):
+def view_one_journal_entry(self, journal):
+	view = journal.get(key, None)
 
-	    view = journal.get(key, None)
-
-	    return view
+	return view
